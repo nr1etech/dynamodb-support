@@ -1,1 +1,1 @@
-export * from './dynamodb.repository';
+export * from './dynamodb.repository.js';

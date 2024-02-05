@@ -4,7 +4,7 @@
   "version": "0.0.2",
   "type": "module",
   "author": "NR1E, Inc.",
-  "publishConfig": {
+  "puwblishConfig": {
     "access": "public"
   },
   "license": "BSD-3-Clause",
