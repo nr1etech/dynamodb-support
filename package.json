@@ -44,6 +44,8 @@
     "tslib": "^2.6.2"
   },
   "peerDependencies": {
+    "@aws-sdk/client-dynamodb": ">=3.506.0",
+    "@aws-sdk/lib-dynamodb": ">=3.506.0",
     "@nr1e/commons": ">=0.0.3",
     "@nr1e/logging": ">=0.0.5"
   },
