@@ -1,7 +1,7 @@
 {
   "name": "@nr1e/dynamodb-support",
   "description": "Supporting functionality and patterns for use with DynamoDB",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "author": "NR1E, Inc.",
   "publishConfig": {
