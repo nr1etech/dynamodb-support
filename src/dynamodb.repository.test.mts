@@ -4,7 +4,7 @@ import {
   TransactionCanceledException,
 } from '@aws-sdk/client-dynamodb';
 import {
-  DynamodbRepository,
+  DynamoDBRepository,
   getDynamoDBClient,
   isConditionalCheckFailedException,
   isTransactionCanceledException,
@@ -41,7 +41,7 @@ test('Test getDynamoDocument', () => {
 });
 
 test('Test DynamoRepository', () => {
-  class TestRepository extends DynamodbRepository {
+  class TestRepository extends DynamoDBRepository {
     constructor() {
       super({tableName: 'test-table'});
     }

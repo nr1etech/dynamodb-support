@@ -62,7 +62,7 @@ export interface DynamoDBRepositoryConfig {
   readonly doc?: DynamoDBDocument;
 }
 
-export abstract class DynamodbRepository {
+export abstract class DynamoDBRepository {
   readonly client: DynamoDBClient;
   readonly doc: DynamoDBDocument;
   readonly tableName: string;
