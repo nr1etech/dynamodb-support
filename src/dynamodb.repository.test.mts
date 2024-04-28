@@ -1,13 +1,14 @@
+import {test, expect} from 'vitest';
 import {
   ConditionalCheckFailedException,
   TransactionCanceledException,
 } from '@aws-sdk/client-dynamodb';
 import {
-  DynamoDBRepository,
+  DynamodbRepository,
   getDynamoDBClient,
   isConditionalCheckFailedException,
   isTransactionCanceledException,
-} from './dynamodb.repository';
+} from './dynamodb.repository.mjs';
 
 test('Test isTransactionCanceledException', () => {
   const err1 = new Error('Transaction Canceled');
@@ -40,7 +41,7 @@ test('Test getDynamoDocument', () => {
 });
 
 test('Test DynamoRepository', () => {
-  class TestRepository extends DynamoDBRepository {
+  class TestRepository extends DynamodbRepository {
     constructor() {
       super({tableName: 'test-table'});
     }
