@@ -15,11 +15,11 @@ importers:
         specifier: ^3.598.0
         version: 3.598.0(@aws-sdk/client-dynamodb@3.598.0)
       '@nr1e/commons':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.2
+        version: 0.1.2
       '@nr1e/logging':
-        specifier: ^1.0.0
-        version: 1.0.0(pino@9.2.0)
+        specifier: ^1.0.1
+        version: 1.0.1(pino@9.2.0)
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -429,11 +429,11 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@nr1e/commons@0.1.1':
-    resolution: {integrity: sha512-KPHgDxKBpy/q0ueG+HjXt4o4Y7G/vC9sLeHJQzeFsBSbK4q86sy1LgDlATYOTkU2DyHlctlXc3Qh2zaHVvPoWg==}
+  '@nr1e/commons@0.1.2':
+    resolution: {integrity: sha512-tXqXAnGNcsZsxCh3DYJv1zTz+K5/cz1cdcaEgPSQXtVa8QkyB71yBg44b9IGQpjBQeMZz4MrrW+mWeDZJxz8lw==}
 
-  '@nr1e/logging@1.0.0':
-    resolution: {integrity: sha512-CwqQW2OmDTPQBTOI4TzWBynZzfOONzBiyygsk+qGGectb2TbVhcrbCg3OwcpwMfcYvrbEEx58nD1u8fwDxfhjA==}
+  '@nr1e/logging@1.0.1':
+    resolution: {integrity: sha512-tAwiEsIOvRtijSCUfxYhq00jlBb8U61yo8HnsOiosJ12TnnYBXpPNL7TqyBZzoRowk1BsbcNxGs4i2U05yykqA==}
     peerDependencies:
       pino: ^9.2.0
 
@@ -2700,11 +2700,11 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@nr1e/commons@0.1.1':
+  '@nr1e/commons@0.1.2':
     dependencies:
       tslib: 2.6.3
 
-  '@nr1e/logging@1.0.0(pino@9.2.0)':
+  '@nr1e/logging@1.0.1(pino@9.2.0)':
     dependencies:
       pino: 9.2.0
       pino-abstract-transport: 1.2.0

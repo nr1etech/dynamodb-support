@@ -38,15 +38,15 @@
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.598.0",
     "@aws-sdk/lib-dynamodb": "^3.598.0",
-    "@nr1e/commons": "^0.1.1",
-    "@nr1e/logging": "^1.0.0",
+    "@nr1e/commons": "^0.1.2",
+    "@nr1e/logging": "^1.0.1",
     "tslib": "^2.6.3"
   },
   "peerDependencies": {
     "@aws-sdk/client-dynamodb": "^3.598.0",
     "@aws-sdk/lib-dynamodb": "^3.598.0",
-    "@nr1e/commons": "^0.1.1",
-    "@nr1e/logging": "^1.0.0"
+    "@nr1e/commons": "^0.1.2",
+    "@nr1e/logging": "^1.0.1"
   },
   "exports": {
     "./package.json": "./package.json",
