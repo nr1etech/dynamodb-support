@@ -18,8 +18,8 @@ importers:
         specifier: ^0.1.2
         version: 0.1.2
       '@nr1e/logging':
-        specifier: ^1.0.1
-        version: 1.0.1(pino@9.2.0)
+        specifier: ^1.1.0
+        version: 1.1.0(pino@9.2.0)
       tslib:
         specifier: ^2.6.3
         version: 2.6.3
@@ -432,8 +432,8 @@ packages:
   '@nr1e/commons@0.1.2':
     resolution: {integrity: sha512-tXqXAnGNcsZsxCh3DYJv1zTz+K5/cz1cdcaEgPSQXtVa8QkyB71yBg44b9IGQpjBQeMZz4MrrW+mWeDZJxz8lw==}
 
-  '@nr1e/logging@1.0.1':
-    resolution: {integrity: sha512-tAwiEsIOvRtijSCUfxYhq00jlBb8U61yo8HnsOiosJ12TnnYBXpPNL7TqyBZzoRowk1BsbcNxGs4i2U05yykqA==}
+  '@nr1e/logging@1.1.0':
+    resolution: {integrity: sha512-b0Y4kDwbVn4pfHaRNLGWjOz/Jf3rpk6yasLrCYszLc/BZYfy9Eah77JuXTisv3PDnMD4V1k+1LjXvxoQ3ZGzHA==}
     peerDependencies:
       pino: ^9.2.0
 
@@ -2704,7 +2704,7 @@ snapshots:
     dependencies:
       tslib: 2.6.3
 
-  '@nr1e/logging@1.0.1(pino@9.2.0)':
+  '@nr1e/logging@1.1.0(pino@9.2.0)':
     dependencies:
       pino: 9.2.0
       pino-abstract-transport: 1.2.0
