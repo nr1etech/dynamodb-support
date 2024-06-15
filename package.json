@@ -1,7 +1,7 @@
 {
   "name": "@nr1e/dynamodb-support",
   "description": "Supporting functionality and patterns for use with DynamoDB",
-  "version": "0.2.0",
+  "version": "0.2.1-alpha.0",
   "type": "module",
   "author": "NR1E, Inc.",
   "puwblishConfig": {
