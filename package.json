@@ -27,7 +27,7 @@
     "site": "typedoc --out site \"src/**/*.mts\" --exclude \"src/**/*.test.mts\""
   },
   "devDependencies": {
-    "@types/node": "20.14.2",
+    "@types/node": "20.14.8",
     "gts": "^5.3.1",
     "ts-node": "^10.9.2",
     "typedoc": "^0.25.13",
